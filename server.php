@@ -30,7 +30,7 @@ if ($result->num_rows > 0) {
         echo "<div class='card'>
         <h1>".$row["blogtitle"]."</h1>
         <h5>".$row["blogdate"]." ".$row["blogauthor"]."</h5>
-        <p>".$row["blogtext"]."</p>";
+        <p>".$row["blogtext"]."</p></div>";
     }
 } else {
 // Geen resultaten?
